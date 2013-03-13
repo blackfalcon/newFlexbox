@@ -1,0 +1,11 @@
+.block {
+  width: 80em; }
+  
+.foo {
+  background: orange; }
+  
+@media screen and (max-width: 40em) {
+    .block {
+      width: 100%; } 
+    .foo {
+      background: green; } }

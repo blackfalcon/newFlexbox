@@ -1,0 +1,254 @@
+$mobile: "screen and (max-width: 40em)";
+
+.block {
+  width: 80em;
+  @media #{$mobile} {
+    width: 100%;
+  }
+}
+ 
+.foo {
+  background: orange;
+  @media #{$mobile} {
+    background: green;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+// .displayFlex {
+//   display: -webkit-flex;
+// }
+
+// // By default, flex direciton will display items in a liner row (Main axis) ltr.
+// // it is also importaint to note that this defult display will not wrap inside a container.
+
+// // row-reverse will in effect display the elements in reverse order from the right side on the Main axis
+// .flexDirection-row-reverse {
+//   -webkit-flex-direction: row-reverse;
+// }
+
+// // column will convert the Main axis to Cross
+// .flexDirection-column {
+//   -webkit-flex-direction: column;
+// }
+
+// // comumn-reverse is the axis alternative to row-reverse
+// .flexDirection-column-reverse {
+//   -webkit-flex-direction: column-reverse;
+// }
+
+// // The justify-content property of Flex Containers adjusts the positions of Flex Items on the Main Axis
+// // flex-start (default)
+
+// // flex-end, this is much like flex-direction: row-reverse
+// .justify-content-flex-end {
+//   -webkit-justify-content: flex-end;
+// }
+
+// // Center will center all the blockes wihtin a givin space
+// .justify-content-center {
+//   -webkit-justify-content: center;
+// }
+
+// //space-between will space all the blocks evenly within a defined space
+// .justify-space-between {
+//   -webkit-justify-content: space-between;
+// }
+
+// //space-around, much like space-between but will add space on the outer blocks
+// .justify-space-around {
+//   -webkit-justify-content: space-around;
+// }
+
+// // The align-items are complementary to justify-content. align-items adjusts the way Flex Items are positioned on the Cross Axis.
+// // flex-start (default)
+
+// // flex-end will move block elements to the bottom of the container
+// .align-items-flex-end {
+//   -webkit-align-items: flex-end;
+// }
+
+// // flex-end will align blocks at the vertical center
+// .align-items-center {
+//   -webkit-align-items: center;
+// }
+
+// // baseline will set the alignment of the blocks based on the block line-heights
+// .align-items-baseline {
+//   -webkit-align-items: baseline;
+// }
+
+// // stretch will auto adjust all the block heights so that they fill 100% of the vertial space
+// .align-items-stretch {
+//   -webkit-align-items: stretch;
+// }
+
+// // Up until now, every Flex Container has had only one Flex Line. 
+// // Using flex-wrap you can create Flex Containers with multiple Flex Lines.
+// // nowrap (default)
+
+// // If flex-wrap is set to wrap, Flex Items wrap onto additional Flex Lines if there is not enough room for them on one Flex Line. 
+// // Additional Flex Lines are added in the direction of the Cross Axis.
+// .flex-wrap-wrap {
+//   -webkit-flex-wrap: wrap;
+// }
+
+// // wrap-reverse is the same as wrap except new Flex Lines will be added in the opposite direction on the Cross Axis.
+// .flex-wrap-reverse {
+//   -webkit-flex-wrap: wrap-reverse;
+// }
+
+// // align-content modifies the behavior of flex-wrap. It is similar to align-items, 
+// // but instead of aligning Flex Items, it aligns Flex Lines
+
+// .align-content-flex-start {
+//   -webkit-flex-wrap: wrap;
+//   -webkit-align-content: flex-start;
+// }
+
+// .align-content-flex-end {
+//   -webkit-flex-wrap: wrap;
+//   -webkit-align-content: flex-end;
+// }
+
+// .align-content-center {
+//   -webkit-flex-wrap: wrap;
+//   -webkit-align-content: center;
+// }
+
+// .align-content-space-between {
+//   -webkit-flex-wrap: wrap;
+//   -webkit-align-content: space-between;
+// }
+
+// .align-content-space-around {
+//   -webkit-flex-wrap: wrap;
+//   -webkit-align-content: space-around;
+// }
+
+// //flex-flow is a shorthand for flex-direction and flex-wrap.
+// .flex-flow-column-wrap {
+//   -webkit-flex-flow:column wrap;
+// }
+
+// .flex-flow-row-wrap {
+//   -webkit-flex-flow:row wrap;
+// }
+
+// // Properties of Flex Items
+// // A Flex Item is any direct child of a Flex Container. Text in a Flex Container also gets treated as a Flex Item.
+
+// // order values are `1` or `-1`, using will place an item at the front or end of the items listed
+// .flex-order-1 {
+//   -webkit-order: -1;
+//   box-shadow: inset 0 0 0 10px green;
+// }
+
+// .flex-order1 {
+//   -webkit-order: 1;
+//   box-shadow: inset 0 0 0 10px purple;
+// }
+
+// // Margins in flex take on a whole new meaning. The `auto` value will absorb all available space
+
+// // margin-auto is the holy grail of UI, we can finally center content
+// .margin-auto {
+//   margin: auto;
+// }
+
+// // margin right
+// .margin-right {
+//   margin-right: auto;
+// }
+
+// // margin left
+// .margin-left {
+//   margin-left: auto;
+// }
+
+// // margin top
+// .margin-top {
+//   margin-top: auto;
+// }
+
+// // margin bottom
+// .margin-bottom {
+//   margin-bottom: auto;
+// }
+
+// // flex specifies how a Flex Item will be prioritized when free space is being distributed on the Main Axis.
+// .flex-1 {
+//   -webkit-flex: 1;
+// }
+
+// .flex-2 {
+//   -webkit-flex: 2;
+// }
+
+// .flex-3 {
+//   -webkit-flex: 3;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .boxContainer {
+//   width: 300px;
+//   border: 1px solid red;
+//   height: 300px;
+//   margin: 50px auto 0 auto;
+//   box-shadow: 0 0 30px 0 gray;
+// }
+
+// .contentBox {
+//   background: orange;
+//   width: 100px;
+//   height: 100px;
+//   line-height: 100px;
+
+//   &:nth-child(2n+1) {
+//     background: blue;
+//     line-height: 150px;
+//   };
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
