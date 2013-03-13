@@ -4,6 +4,122 @@
 .foo {
   background: orange; }
   
+.displayFlex {
+  display: -webkit-flex; }
+
+.flexDirection-row-reverse {
+  -webkit-flex-direction: row-reverse; }
+
+.flexDirection-column {
+  -webkit-flex-direction: column; }
+
+.flexDirection-column-reverse {
+  -webkit-flex-direction: column-reverse; }
+
+.justify-content-flex-end {
+  -webkit-justify-content: flex-end; }
+
+.justify-content-center {
+  -webkit-justify-content: center; }
+
+.justify-space-between {
+  -webkit-justify-content: space-between; }
+
+.justify-space-around {
+  -webkit-justify-content: space-around; }
+
+.align-items-flex-end {
+  -webkit-align-items: flex-end; }
+
+.align-items-center {
+  -webkit-align-items: center; }
+
+.align-items-baseline {
+  -webkit-align-items: baseline; }
+
+.align-items-stretch {
+  -webkit-align-items: stretch; }
+
+.flex-wrap-wrap {
+  -webkit-flex-wrap: wrap; }
+
+.flex-wrap-reverse {
+  -webkit-flex-wrap: wrap-reverse; }
+
+.align-content-flex-start {
+  -webkit-flex-wrap: wrap;
+  -webkit-align-content: flex-start; }
+
+.align-content-flex-end {
+  -webkit-flex-wrap: wrap;
+  -webkit-align-content: flex-end; }
+
+.align-content-center {
+  -webkit-flex-wrap: wrap;
+  -webkit-align-content: center; }
+
+.align-content-space-between {
+  -webkit-flex-wrap: wrap;
+  -webkit-align-content: space-between; }
+
+.align-content-space-around {
+  -webkit-flex-wrap: wrap;
+  -webkit-align-content: space-around; }
+
+.flex-flow-column-wrap {
+  -webkit-flex-flow: column wrap; }
+
+.flex-flow-row-wrap {
+  -webkit-flex-flow: row wrap; }
+
+.flex-order-1 {
+  -webkit-order: -1;
+  box-shadow: inset 0 0 0 10px green; }
+
+.flex-order1 {
+  -webkit-order: 1;
+  box-shadow: inset 0 0 0 10px purple; }
+
+.margin-auto {
+  margin: auto; }
+
+.margin-right {
+  margin-right: auto; }
+
+.margin-left {
+  margin-left: auto; }
+
+.margin-top {
+  margin-top: auto; }
+
+.margin-bottom {
+  margin-bottom: auto; }
+
+.flex-1 {
+  -webkit-flex: 1; }
+
+.flex-2 {
+  -webkit-flex: 2; }
+
+.flex-3 {
+  -webkit-flex: 3; }
+
+.boxContainer {
+  width: 300px;
+  border: 1px solid red;
+  height: 300px;
+  margin: 50px auto 0 auto;
+  box-shadow: 0 0 30px 0 gray; }
+
+.contentBox {
+  background: orange;
+  width: 100px;
+  height: 100px;
+  line-height: 100px; }
+  .contentBox:nth-child(2n+1) {
+    background: blue;
+    line-height: 150px; }
+
 @media screen and (max-width: 40em) {
     .block {
       width: 100%; } 
